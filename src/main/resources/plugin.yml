@@ -1,0 +1,9 @@
+name: QuickItemsGenerator
+version: ${project.version}
+main: me.opkarol.quickitemgenerator.QuickItemGenerator
+api-version: 1.16
+authors: [ ThisOpKarol ]
+description: Generate your items with lore, name, enchants quick!
+
+commands:
+  qig:

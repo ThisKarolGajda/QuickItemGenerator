@@ -1,0 +1,34 @@
+messages:
+  badUsage: "/qig give/reload"
+  note: "Note! List of enchantments names: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html"
+  onlyPlayer: "This command is only for player"
+  itemNotExist: "This item doesn't exist"
+  reloadedConfig: "Reloaded config!"
+
+items:
+  Item1:
+    material: DIAMOND_PICKAXE
+    name: "&bMiner's pickaxe"
+    lore:
+      - '&bThis pickaxe'
+      - '&9&lis op'
+      - '&klllllll'
+    unbreakable: true
+    glow: true
+    enchants:
+      DURABILITY: 10
+      DIG_SPEED: 10
+    hideAttributes: true
+  Item2:
+    material: DIAMOND_SWORD
+    name: '&bLight Sword'
+    lore:
+      - 'Really cool sword'
+      - '&7For everyone'
+    unbreakable: false
+    glow: true
+    enchants:
+      DURABILITY: 10
+      DAMAGE_ALL: 10
+    hideAttributes: true
+
